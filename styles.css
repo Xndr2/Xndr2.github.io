@@ -20793,14 +20793,14 @@ a.pswp__share--download:hover {
   }
   to {
     transform-origin: center center;
-    transform: translate3d(-50% , -50% , 0);
+    transform: translate3d(-50%, -50%, 0);
     opacity: 1;
   }
 }
 @keyframes customAnimationOut {
   from {
     transform-origin: center center;
-    transform: translate3d(-50%, -50% , 0);
+    transform: translate3d(-50%, -50%, 0);
     opacity: 1;
   }
   to {
@@ -42476,18 +42476,17 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 120px;
+  min-height: 133px;
 }
 
 .u-header .u-menu-1 {
-  margin: 38px auto 0 74px;
+  margin: 39px auto 0 74px;
 }
 
 .u-header .u-nav-1 {
+  font-weight: 400;
   font-size: 1.5rem;
-  background-image: none;
   letter-spacing: normal;
-  font-weight: 700;
   font-family: Oswald, sans-serif;
 }
 
@@ -42519,7 +42518,7 @@ a.u-link.u-text-hover-grey-90:hover {
   box-shadow: 0px 0px 0px rgba(0,0,0,0);
   text-shadow: 0px 0px 0px rgba(0,0,0,0);
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  margin: -50px 0 41px auto;
+  margin: -50px 0 0 auto;
 }
 
 .u-header .u-icon-1 {
@@ -42534,23 +42533,22 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 0;
 }
 
+.u-header .u-btn-1 {
+  transition-duration: 0.5s;
+  box-shadow: -2px 0 0 0 rgba(0,0,0,0);
+  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  font-size: 1.25rem;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  font-weight: 400;
+  margin: -41px auto 39px;
+  padding: 10px 27px 10px 26px;
+}
+
 
 
 @media (max-width: 575px) {
-  .u-header .u-sheet-1 {
-    min-height: 114px;
-  }
-
-  .u-header .u-menu-1 {
-    margin-top: 25px;
-  }
-
   .u-header .u-nav-2 {
     margin: 20px auto 0;
-  }
-
-  .u-header .u-social-icons-1 {
-    margin-bottom: 28px;
   }
 }
 .u-header .u-image-1, .u-header .u-image-1:before, .u-header .u-image-1 > .u-container-layout:before {
@@ -42584,6 +42582,14 @@ a.u-link.u-text-hover-grey-90:hover {
     transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
 }
 .u-container-layout.hover .u-header .u-social-icons-1 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+} .u-header .u-btn-1, .u-header .u-btn-1:before, .u-header .u-btn-1 > .u-container-layout:before {
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
+}
+.u-header .u-container-layout:hover .u-btn-1 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+}
+.u-container-layout.hover .u-header .u-btn-1 {
     transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
 } 
 
