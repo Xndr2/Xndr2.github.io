@@ -1,0 +1,7 @@
+<iframe
+    src="https://linkcord.js.org/api/v3/widget/434760513377927188?type=vsc&theme=dark"
+    width="600"
+    height="150"
+    allowtransparency="true"
+    frameborder="0"
+/>
